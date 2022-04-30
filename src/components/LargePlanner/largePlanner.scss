@@ -114,10 +114,18 @@
 .input__largePlanner {
   border: none;
   font-size: 20px;
-  width: 300px;
+  width: 400px;
   outline: none;
   background-color: transparent;
-  padding: 0 0 0 10px;
+  padding: 0 10px;
+}
+
+.largePlanner__box--lower {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .largePlanner__buttonBox {
@@ -224,7 +232,7 @@
   gap: 5px;
 }
 
-.largePlanner__box--lower {
+.largePlanner__box--input {
   display: flex;
   flex-direction: row;
   gap: 10px;

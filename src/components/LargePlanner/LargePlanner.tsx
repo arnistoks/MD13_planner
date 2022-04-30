@@ -190,7 +190,7 @@ const LargePlanner = () => {
                     </div>
                   </div>
                 </div>
-                <div className="largePlanner__box--lower">
+                <div className="largePlanner__box--input">
                   <input
                     className="checkbox__mediumPlanner"
                     type="checkbox"

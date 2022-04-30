@@ -10,10 +10,6 @@ const App = () => (
   <div className="App">
     <section className="section">
       <div className="container">
-        <MiniPlanner />
-        <SmallPlanner />
-        <NormalPlanner />
-        <MediumPlanner />
         <LargePlanner />
       </div>
     </section>
