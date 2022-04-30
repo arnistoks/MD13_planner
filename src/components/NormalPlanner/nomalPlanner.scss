@@ -1,0 +1,80 @@
+.container__normalPlaner {
+  width: fit-content;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 15px;
+  gap: 20px;
+}
+
+.box__normalPlanner {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.input__normalPlanner {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 1px solid black;
+  font-size: 20px;
+  line-height: 1.5;
+  width: 400px;
+}
+
+.button__normalPlanner {
+  font-size: 20px;
+  line-height: 1.5;
+  padding: 10px 20px;
+  background-color: #e3e3e3;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #d3d3d3;
+  }
+
+  &:active {
+    background-color: #e3e3e3;
+  }
+}
+
+.ul__normalPlanner {
+  padding: 0;
+  margin: 0;
+}
+
+.li__normalPlanner {
+  list-style-type: none;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.li__normalPlanner--box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 5px;
+  border: 1px solid black;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.checkbox__normalPlanner {
+  cursor: pointer;
+}
+
+.li__normalPlanner--boxInside {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+}
+
+.li__normalPlanner--button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+}

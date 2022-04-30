@@ -1,0 +1,237 @@
+.container__mediumPlaner {
+  width: fit-content;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 15px;
+  gap: 20px;
+  background-color: white;
+  margin-bottom: 30px;
+}
+
+.box__mediumPlanner {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.input__mediumPlanner {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 1px solid black;
+  font-size: 20px;
+  line-height: 1.5;
+  width: 400px;
+}
+
+.button__mediumPlaner {
+  font-size: 20px;
+  line-height: 1.5;
+  padding: 10px 20px;
+  background-color: #e3e3e3;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #d3d3d3;
+  }
+
+  &:active {
+    background-color: #e3e3e3;
+  }
+}
+
+.ul__mediumPlanner {
+  padding: 0;
+  margin: 0;
+}
+
+.li__mediumPlanner {
+  list-style-type: none;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.li__mediumPlanner--box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 5px;
+  border: 1px solid black;
+  padding: 0 10px;
+  margin-bottom: 15px;
+}
+
+.checkbox__mediumPlanner {
+  cursor: pointer;
+  margin: 20px 0;
+}
+
+.li__mediumPlanner--boxInside {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+}
+
+.li__mediumPlanner--button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+}
+
+.mediumPlanner__progressBar {
+  border: 1px solid black;
+  height: 20px;
+  margin-bottom: 15px;
+  display: flex;
+  width: 100%
+}
+
+.mediumPlanner__progressBar--inProgress {
+  background-color: limegreen;
+  height: 20px;
+  flex-grow: 1;
+}
+
+.mediumPlanner__progressBar--done {
+  height: 20px;
+  flex-grow: 1;
+}
+
+.largePlanner__editBox {
+  border: 1px solid black;
+  padding: 0 10px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+}
+
+.input__largePlanner {
+  border: none;
+  font-size: 20px;
+  width: 300px;
+  outline: none;
+  background-color: transparent;
+  padding: 0 0 0 10px;
+}
+
+.largePlanner__buttonBox {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  justify-content: right;
+}
+
+.largePlanner__button--save {
+  font-size: 20px;
+  line-height: 1.5;
+  margin: 3px 0;
+  background-color: limegreen;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 90px;
+
+  &:hover {
+    background-color: #29ad29;
+  }
+
+  &:active {
+    background-color: limegreen;
+  }
+}
+
+.largePlanner__button--cancel {
+  font-size: 20px;
+  line-height: 1.5;
+  margin: 3px 0;
+  background-color: #e3e3e3;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 90px;
+
+  &:hover {
+    background-color: #d3d3d3;
+  }
+
+  &:active {
+    background-color: #e3e3e3;
+  }
+}
+
+.Augsta {
+  background-color: rgba(255,0,0,0.6);
+  margin: 2px;
+}
+
+.Vidēja {
+  background-color: rgba(255,255,0,0.6);
+  margin: 2px;
+}
+
+.Zema {
+  background-color: rgba(0,128,0,0.6);
+  margin: 2px;
+}
+
+.largePlanner__select--box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.largePlanner__select--title {
+  margin: 0;
+  font-size: 16px;
+}
+
+.largePlanner__select {
+  padding: 3px;
+  font-size: 18px;
+}
+
+.largePlanner__container {
+  border: 2px solid #444444;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.largePlanner__box--upper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.largePlanner__box--priority {
+  border: 2px solid black;
+  padding: 2px 1px 1px 1px;
+}
+
+.largePlanner__priority--title {
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.largePlanner__box--buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.largePlanner__box--lower {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}
+
+.largePlanner--edit, .largePlanner--delete {
+  cursor: pointer;
+}
+
